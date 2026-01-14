@@ -11,7 +11,7 @@
   font-style: normal;
 }
 /* Start from here */
-body{
+body {
   width: 100%;
 }
 p {
@@ -264,6 +264,9 @@ footer p {
     width: 100%;
     padding: 0 5%;
   }
+  .feature-content {
+    width: 100%;
+}
   .feature {
     flex-direction: column;
   }
@@ -310,7 +313,74 @@ footer p {
     gap: 40px;
   }
   footer {
-  
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 567px) and (max-width: 1150px) {
+  nav h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 50px 0 50px;
+  }
+  nav {
+    width: auto;
+  }
+  .banner-content h2 {
+    font-size: 40px;
+    width: auto;
+    margin: 0 auto;
+  }
+  p {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner-content {
+    width: auto;
+  }
+  .fact-head {
+    text-align: center;
+    width: 100%;
+    
+  
+  }
+  .fact-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px,1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 5%;
+    
+  }
+  .fact-content .card {
+    padding: 25px 26px;
+  }
+  .fact {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    
+  }
+  .feature2 {
+    width: 100%;
+}
+  .feature2-pic {
+    width: 85%;
+  }
+  .sponsor {
+    margin: 0 auto;
+    margin-bottom: 130px;
+    width: 100%;
+
+}
+  .sponsor-icon {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px,1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
 }
 }
